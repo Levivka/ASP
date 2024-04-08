@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "DmvfkeSvQL1O9yVD+jqiO5evmCfz3J02vsTlHkLmwPI=",
+  "Source": "ASP",
+  "BasePath": "_content/ASP",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ASP/wwwroot",
+      "Source": "ASP",
+      "ContentRoot": "/Users/levik/Desktop/С/с#/ASP/wwwroot/",
+      "BasePath": "_content/ASP",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DndStuff</title>
+        <link rel="stylesheet" href="style.css" />
+        <script defer src="js/main.js"></script>
+    </head>
+    <body id="body">
+        <div id="wrapper">
+            <h1 id="header1">
+                DndStuff - Днд штуки
+            </h1>
+            <nav>
+                <ul class="top-menu">
+                    <li><a href="encounter_diff.html">Рассчитать сложность боя</a></li>
+                    <li><a href="dungeon_loot">Рандомный лут с данжей</a></li>
+                </ul>
+            </nav>
+            <main>
+                <p id="title">Расчёт сложности боёвки</p>
+                <section>
+                    <div id="playersDV" class="content">
+                        <a>Игровые персонажи</a>
+                        <input type="text" placeholder="Количество" size="20">
+                        <input type="text" placeholder="Уровень" size="20">
+                    </div>
+                    <div id="masterDV" class="content">
+                        <a>Персонажи мастера</a>
+                        <input type="text" placeholder="Имя" size="20">
+                        <input type="text" placeholder="ПО" size="20">
+                        <input type="text" placeholder="Количество" size="20">
+                        <button id="plusBT">+</button>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
